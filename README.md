@@ -162,9 +162,9 @@ What if you **don't** have a PDB with nicely renamed functions? That's partially
 __int64 __fastcall sub_143DB33F0(__int64 a1)
 {
   if ( (*(_BYTE *)(a1 + 61) & 0x20) != 0 || (unsigned __int8)sub_14152EC90() == 0 )
-    return a1 + 0x110; // ding ding ding!
+    return a1 + 0x110;
   else
-    return sub_14152BC20(a1) + 232;
+    return sub_14152BC20(a1) + 232; // ding ding ding!
 }
 ```
 
